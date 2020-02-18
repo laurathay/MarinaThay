@@ -1,0 +1,82 @@
+.banner
+{
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	padding: 50px 100px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.portfolio, .menu{
+	display: flex;
+	justify-content: center;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	padding: 50px 100px;
+}
+
+.biographie, p{
+	display: flex;
+	justify-content: center;
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	padding: 20px
+}
+
+.footer{
+	background-color: white;
+	padding: 20px;
+	text-align: center;	
+}
+
+.list-inline li {
+	color: white;
+	display: inline;
+	padding: 0 10px;
+
+}
+
+nav ul{
+	padding: 0px;
+	margin:0px;
+	list-style:none;
+	justify-content: center;
+	text-align: center;
+}
+
+nav li{
+	justify-content: center;
+	text-align: center;
+	display: inline-block;
+	margin:0px;
+	padding: 0px;
+	width: 100px;
+	height:40px;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+	line-height: 40px;
+}
+
+nav li a {
+	display:block;
+	text-decoration: none;
+	color:#d9d4f7;
+}
+
+nav li :hover{
+	background-color:#f7afdf;
+}
+
+figure{
+	justify-content: center;
+	text-align: center;
+	font-family: Caveat, cursive;
+	font-size: 40px;
+}
+
+form{
+	justify-content: center;
+	text-align: center;
+	font-family: Caveat, cursive;
+	font-size: 40px;
+}
